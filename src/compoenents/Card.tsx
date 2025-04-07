@@ -5,7 +5,7 @@ export default function Card() {
     <div className="flex flex-row justify-between gap-4 p-6 bg-white rounded-2xl shadow-md w-3/4">
       <div className="w-3/4 h-64 overflow-hidden rounded-xl">
         <img
-          src="./assets/veggie.webp"
+          src="/veggie.webp"
           alt="chef"
           className="w-full h-full object-cover"
         />

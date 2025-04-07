@@ -13,7 +13,7 @@ export default function Veggie() {
       <hr className="border-t border-neutral-900 " />
       <div className="w-3/4 h-64 overflow-hidden rounded-xl">
         <img
-          src="assets/fresh-fruits-and-vegetables.webp"
+          src="/fresh-fruits-and-vegetables.webp"
           alt="chef"
           className="w-full h-full object-cover"
         />
