@@ -8,14 +8,15 @@ function App() {
 
 
   return (
-    <div className='flex justify-center flex-col items-center p-10'>
+    <div className='flex justify-center flex-col items-center p-10 bg-amber-100'>
           <div>
              <Navbar/>
           </div>
           <div className="flex justify-center items-center p-4">
               <Card/>  
           </div>
-          <div className='bg-white rounded-lg shadow-2xs shadow-pink-300'>
+         <div className="py-8">
+         <div className='bg-white rounded-lg shadow-2xs p-4'>
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
               Where Every Bite Tells a Story
             </h2>
@@ -31,6 +32,7 @@ function App() {
               Come experience food that speaks louder than words.
              </p> 
           </div>
+         </div>
           <div className='flex justify-center p-4 bg-amber-300 items-center'>
                  <Veggie/>
           </div>
